@@ -1,10 +1,11 @@
 import React from 'react'
 import RegisterForm from './components/RegisterForm'
+import Hero from './components/Hero'
 
 const Register = () => {
   return (
-    <div className='flex'>
-        <div className='w-1/2 bg-yellow-400'></div>
+    <div className='flex bg-[#070707] font-ProductSans'>
+        <Hero/>
         <RegisterForm/>
     </div>
   )

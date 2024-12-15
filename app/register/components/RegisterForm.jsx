@@ -88,8 +88,8 @@ const RegisterForm = () => {
       
 
     return (
-    <div className='min-h-screen w-2/3 flex justify-center items-center flex-col p-8 bg-[#070707]'>
-        <h2 className="text-4xl font-semibold text-[#D71015] mb-6 ">Event Registration Form</h2>
+    <div className='min-h-screen w-full md:w-2/3 flex justify-center items-center flex-col p-8 md:mr-10'>
+        <h2 className="text-2xl md:text-4xl font-bold text-[#D71015] mb-6 ">Event Registration Form</h2>
         <form className="w-full max-w-3xl md:grid grid-cols-1 md:grid-cols-2 flex flex-col gap-4  text-[#E2DCD0]" onSubmit={handleSubmit}>
 
        <>

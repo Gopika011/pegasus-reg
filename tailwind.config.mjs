@@ -12,7 +12,8 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        pressstart: ['PressStart', 'sans-serif'], // 'custom' is the utility class name
+        pressstart: ['PressStart', 'sans-serif'], 
+        ProductSans: ['ProductSans', 'sans-serif']
       },
     },
   },
