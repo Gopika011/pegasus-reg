@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        pressstart: ['PressStart', 'sans-serif'], // 'custom' is the utility class name
+      },
     },
   },
   plugins: [],
