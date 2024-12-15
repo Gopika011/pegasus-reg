@@ -36,3 +36,11 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+
+@layer components{
+  .ticket-text{
+    text-shadow: 2px 2px 0.5px #9E2E2A4F;
+    @apply text-sm;
+  }
+}
