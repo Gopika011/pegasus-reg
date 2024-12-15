@@ -68,7 +68,7 @@ const Ticket = () => {
                 <div className="m-6"><Image src={peg} alt='pegasus' className="object-contain"/></div>
                 <h2 className="absolute right-3 bottom-3 text-white text-md">JAN 10</h2>
           </div>
-          <div className=" py-2 -left-5 absolute hidden h-full w-8 md:flex md:flex-col gap-5">
+          <div className=" py-2 -left-5  top-0 absolute hidden h-full w-8 md:flex md:flex-col gap-5">
           <div className="rounded-full h-8 w-8 bg-[#070707]"></div>
           <div className="rounded-full h-8 w-8 bg-[#070707]"></div>
           <div className="rounded-full h-8 w-8 bg-[#070707]"></div>
@@ -88,7 +88,7 @@ const Ticket = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-4 md:gap-0 md:p-10 py-10 justify-center h-4/5">
+          <div className="flex flex-col gap-4 md:gap-2 md:p-10 py-10 justify-center h-4/5">
               <div className="flex md:flex-row flex-col text-center justify-between md:items-center">
                <p className="text-sm md:text-md ">NAME</p>
                <p className="text-sm md:text-md">
